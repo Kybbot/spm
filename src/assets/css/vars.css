@@ -7,6 +7,8 @@
 :root {
 	--bg-main: #131c23;
 	--bg-white: #ffffff;
+	--bg-dark: #484848;
+	--bg-grey: #e0e0e0;
 	--bg-white-05: rgba(255, 255, 255, 0.5);
 	--bg-white-09: rgba(255, 255, 255, 0.9);
 
@@ -15,6 +17,9 @@
 	--text-black: #000000;
 	--text-secondary: #4c758b;
 	--text-placeholder: #959595;
+	--text-error: #e73f3f;
+
+	--btn-main: #b6d9ee;
 
 	--table-yellow: #ff9900;
 	--table-orange: #ff3d00;
@@ -24,6 +29,7 @@
 
 	--border-main: #4c758b;
 	--border-secondary: rgba(81, 125, 150, 0.3);
+	--border-error: #e73f3f;
 
 	--radius-main: 10px;
 }
