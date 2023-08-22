@@ -5,19 +5,15 @@
 }
 
 :root {
-	--bg-main: #ffffff;
+	--bg-main: #131c23;
 	--bg-white: #ffffff;
+	--bg-white-05: rgba(255, 255, 255, 0.5);
 
 	--text-main: #484848;
 	--text-white: #ffffff;
 	--text-black: #000000;
 	--text-secondary: #4c758b;
 	--text-placeholder: #959595;
-
-	--actions-default: #f1f1f1;
-	--actions-hover: #f6f6f6;
-	--actions-alternate: #e8e8e8;
-	--actions-disabled: #eeeeee;
 
 	--accent-color: #105dfb;
 
