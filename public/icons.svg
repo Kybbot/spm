@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<symbol id="arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 11" fill="none">
+  	<path d="M7.36602 10.5C6.98112 11.1667 6.01887 11.1667 5.63397 10.5L0.870834 2.25C0.485934 1.58333 0.96706 0.75 1.73686 0.75L11.2631 0.75C12.0329 0.75 12.5141 1.58333 12.1292 2.25L7.36602 10.5Z" fill="#484848"/>
+	</symbol>
+	<symbol id="check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 12" fill="none">
+  	<path d="M1.7218 3.91407L8.08576 10.278L17.2781 1.08564" stroke="black" stroke-width="2" stroke-linecap="round"/>
+	</symbol>
+	<symbol id="stop" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 15" fill="none">
+  	<circle cx="7.5" cy="7.5" r="7.5" fill="#CD0000"/>
+  	<line x1="3" y1="7.5" x2="12" y2="7.5" stroke="white"/>
+	</symbol>
+	<symbol id="advise" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 63 63" fill="none">
+  	<rect x="1" y="37" width="11" height="23" rx="1" stroke="white" stroke-width="2"/>
+  	<path d="M33 29H32.6024L32.3134 29.273L25.1463 36.0419L25.4983 30.0587L25.5606 29H24.5H20C17.7909 29 16 27.2091 16 25V5C16 2.79086 17.7909 1 20 1H53C55.2091 1 57 2.79086 57 5V25C57 27.2091 55.2091 29 53 29H33Z" stroke="white" stroke-width="2"/>
+  	<path d="M16.5 40.5H23.5C26.3707 41.5399 27.6881 42.5624 29.5 45C29.5 45 38.5 45 42 45C45.5 45 45.5 51.5 42 51.5C38.5 51.5 31.5 51.5 31.5 51.5" stroke="white" stroke-linecap="round"/>
+  	<path d="M25 58.4999L39 61.9999C39 61.9999 58.5 49.4997 61 47.9999C63.5 46.5001 61 41 57.5 42.9999C54 44.9998 43.5 51 43.5 51M18 56.5L13 55" stroke="white" stroke-linecap="round"/>
+  	<path d="M25 11.5H49" stroke="white" stroke-linecap="round"/>
+  	<path d="M25 18.5H49" stroke="white" stroke-linecap="round"/>
+  	<circle cx="21.5" cy="57.5" r="0.5" fill="white"/>
+	</symbol>
+	<symbol id="portfolio" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 55" fill="none">
+  	<path d="M2 2V53M2 53H62M2 53L16.702 35.4541L24.4503 39.8991L36.3709 18.3761L42.5298 28.2018L57.5 12.5" stroke="white" stroke-width="3" stroke-linecap="round"/>
+	</symbol>
+	<symbol id="documents" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 45 60" fill="none">
+  	<mask id="path-1-inside-1_83_499" fill="white">
+    	<rect x="6.89655" width="37.931" height="53.1034" rx="1"/>
+  	</mask>
+  	<rect x="6.89655" width="37.931" height="53.1034" rx="1" fill="#131C23" stroke="white" stroke-width="6" mask="url(#path-1-inside-1_83_499)"/>
+  	<path d="M14.4828 5.51709V22.0688M14.4828 22.0688H37.931M14.4828 22.0688L20.2284 16.3744L23.2564 17.817L27.915 10.8319L30.322 14.0207L37.4652 5.51709" stroke="white" stroke-width="2" stroke-linecap="round"/>
+  	<path d="M13.1034 26.8965H38.6207" stroke="white" stroke-linecap="round"/>
+  	<path d="M13.1034 29.6548H38.6207" stroke="white" stroke-linecap="round"/>
+  	<path d="M13.1034 32.4141H38.6207" stroke="white" stroke-linecap="round"/>
+  	<path d="M13.1034 35.1729H38.6207" stroke="white" stroke-linecap="round"/>
+  	<path d="M13.1034 37.9312H38.6207" stroke="white" stroke-linecap="round"/>
+  	<path d="M13.1034 40.6899H38.6207" stroke="white" stroke-linecap="round"/>
+  	<path d="M13.1034 43.4482H38.6207" stroke="white" stroke-linecap="round"/>
+  	<path d="M13.1034 46.207H38.6207" stroke="white" stroke-linecap="round"/>
+  	<mask id="path-11-inside-2_83_499" fill="white">
+  	  <rect y="6.89648" width="37.931" height="53.1034" rx="1"/>
+  	</mask>
+  	<rect y="6.89648" width="37.931" height="53.1034" rx="1" fill="#131C23" stroke="white" stroke-width="6" mask="url(#path-11-inside-2_83_499)"/>
+  	<path d="M7.58621 12.4136V28.9653M7.58621 28.9653H31.0345M7.58621 28.9653L13.3318 23.2709L16.3599 24.7135L21.0185 17.7283L23.4254 20.9172L30.5686 12.4136" stroke="white" stroke-width="2" stroke-linecap="round"/>
+  	<path d="M6.20689 33.7935H31.7241" stroke="white" stroke-linecap="round"/>
+  	<path d="M6.20689 36.5518H31.7241" stroke="white" stroke-linecap="round"/>
+  	<path d="M6.20689 39.3105H31.7241" stroke="white" stroke-linecap="round"/>
+  	<path d="M6.20689 42.0693H31.7241" stroke="white" stroke-linecap="round"/>
+  	<path d="M6.20689 44.8276H31.7241" stroke="white" stroke-linecap="round"/>
+  	<path d="M6.20689 47.5864H31.7241" stroke="white" stroke-linecap="round"/>
+  	<path d="M6.20689 50.3447H31.7241" stroke="white" stroke-linecap="round"/>
+  	<path d="M6.20689 53.1035H31.7241" stroke="white" stroke-linecap="round"/>
+	</symbol>
+</svg>

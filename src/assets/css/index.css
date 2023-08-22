@@ -1,0 +1,8 @@
+@import "./fonts.css";
+@import "./vars.css";
+
+@import "./shared/index.css";
+@import "./entities/index.css";
+@import "./features/index.css";
+@import "./widgets/index.css";
+@import "./pages/index.css";

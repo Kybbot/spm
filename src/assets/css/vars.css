@@ -1,0 +1,53 @@
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+:root {
+	--bg-main: #ffffff;
+	--bg-white: #ffffff;
+
+	--text-main: #484848;
+	--text-white: #ffffff;
+	--text-black: #000000;
+	--text-secondary: #4c758b;
+	--text-placeholder: #959595;
+
+	--actions-default: #f1f1f1;
+	--actions-hover: #f6f6f6;
+	--actions-alternate: #e8e8e8;
+	--actions-disabled: #eeeeee;
+
+	--accent-color: #105dfb;
+
+	--border-main: #4c758b;
+	--border-secondary: rgba(81, 125, 150, 0.3);
+
+	--radius-main: 10px;
+}
+
+html,
+body {
+	scroll-behavior: smooth;
+	scroll-padding-top: 40px;
+}
+
+.srOnly {
+	height: 1px;
+	width: 1px;
+	position: absolute;
+	margin: -1px;
+	padding: 0;
+	border: 0;
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+
+.tx-center {
+	text-align: center;
+}
+
+.scrollbar {
+	scrollbar-width: thin;
+}
