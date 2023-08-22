@@ -1,0 +1,29 @@
+.label {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	margin-bottom: 19px;
+}
+
+.label:last-child {
+	margin-bottom: 0;
+}
+
+.label__text {
+	font-size: 20px;
+	font-weight: 400;
+	line-height: normal;
+	color: var(--text-white);
+}
+
+.label__error {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	font-size: 12px;
+	line-height: 16px;
+	color: var(--text-error);
+	margin: 0;
+	white-space: nowrap;
+}

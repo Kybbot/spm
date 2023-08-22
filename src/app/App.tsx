@@ -1,9 +1,12 @@
 import { FC } from "react";
+import { BrowserRouter } from "react-router-dom";
+
+import { SignedInRoutes } from "./routes/SignedInRoutes";
 
 export const App: FC = () => {
 	return (
-		<main>
-			<h1>Hi</h1>
-		</main>
+		<BrowserRouter>
+			<SignedInRoutes />
+		</BrowserRouter>
 	);
 };

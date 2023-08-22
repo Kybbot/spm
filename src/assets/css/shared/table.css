@@ -1,0 +1,78 @@
+.table {
+	width: 100%;
+	margin: 0 auto;
+	border-collapse: collapse;
+}
+
+.table__thead {
+	border-bottom: 3px solid var(--border-main);
+}
+
+.table__th {
+	position: relative;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: normal;
+	color: var(--text-main);
+	text-align: left;
+	padding: 13px 13px 13px 4px;
+}
+
+.table__th--color {
+	padding: 0;
+	width: 11px;
+}
+
+.table__tr {
+	border-bottom: 1px solid var(--border-secondary);
+	transition: background-color 0.3s ease;
+}
+
+.table__tr:hover {
+	background-color: var(--table-hover);
+}
+
+.table__tr:last-child {
+	border-bottom: none;
+}
+
+.table__td {
+	position: relative;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: normal;
+	color: var(--text-main);
+	text-align: left;
+	padding: 13px 13px 13px 4px;
+}
+
+.table__td--status::after {
+	position: absolute;
+	content: "";
+	top: 0;
+	right: 0;
+	width: 11px;
+	height: 100%;
+}
+
+.table__td--yellow::after {
+	background-color: var(--table-yellow);
+}
+.table__td--orange::after {
+	background-color: var(--table-orange);
+}
+.table__td--blue::after {
+	background-color: var(--table-blue);
+}
+.table__td--green::after {
+	background-color: var(--table-green);
+}
+
+.table__name {
+	width: 250px;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3;
+	overflow: hidden;
+	margin: 0;
+}
