@@ -1,0 +1,11 @@
+.main {
+	position: relative;
+	padding-top: 97px;
+	padding-bottom: 180px;
+}
+
+.main__container {
+	max-width: 1130px;
+	width: 100%;
+	margin: 0 auto;
+}
