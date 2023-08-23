@@ -23,3 +23,9 @@
 .btn--red {
 	background-color: var(--btn-red);
 }
+
+.btn:disabled {
+	box-shadow: none;
+	background-color: var(--bg-white-05);
+	cursor: initial;
+}

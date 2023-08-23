@@ -6,9 +6,13 @@ type ButtonProps = {
 	color?: "green" | "red";
 } & ButtonHTMLAttributes<HTMLButtonElement>;
 
-export const Button: FC<ButtonProps> = ({ children, width, color }) => {
+export const Button: FC<ButtonProps> = ({ children, width, color, ...props }) => {
 	return (
-		<button className={`btn ${color ? `btn--${color}` : ""}`} style={{ width: width ? width : "" }}>
+		<button
+			className={`btn ${color ? `btn--${color}` : ""}`}
+			style={{ width: width ? width : "" }}
+			{...props}
+		>
 			{children}
 		</button>
 	);
