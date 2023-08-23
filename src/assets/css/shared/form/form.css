@@ -1,10 +1,14 @@
 .form__fieldset {
 	display: flex;
 	flex-direction: column;
-	gap: 30px;
+	gap: 19px;
 	margin: 0;
 	padding: 0;
 	border-style: none;
+}
+
+.form__fieldset--gap30 {
+	gap: 30px;
 }
 
 .form__save {

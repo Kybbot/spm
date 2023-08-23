@@ -234,7 +234,7 @@ const AdviceRecord: FC = () => {
 						Please provide your response within 5 business days.
 					</h3>
 					<p className="adviceRecord__text">I/we confirm:</p>
-					<fieldset className="form__fieldset">
+					<fieldset className="form__fieldset form__fieldset--gap30">
 						<label htmlFor="noChanges1" className="label label--row">
 							<input type="checkbox" name="noChanges1" id="noChanges1" />
 							<span>There are no changes to SPM’s ongoing scope of engagement; and</span>
