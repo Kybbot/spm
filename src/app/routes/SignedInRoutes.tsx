@@ -17,7 +17,7 @@ export const SignedInRoutes: FC = () => {
 			<Route path="/" element={<MainLayout />}>
 				<Route index element={<Home />} />
 				<Route path="advice-records" element={<AdviceRecords />} />
-				<Route path="advice-record/:id" element={<AdviceRecord />} />
+				<Route path="advice-records/:id" element={<AdviceRecord />} />
 			</Route>
 			<Route path="/auth" element={<AuthLayout />}>
 				<Route index element={<SignUp />} />
