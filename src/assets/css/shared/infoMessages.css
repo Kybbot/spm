@@ -1,0 +1,27 @@
+.infoMessage {
+	margin: 0;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 16px;
+	text-align: center;
+	display: inline-block;
+	text-decoration: underline;
+	text-decoration-thickness: 3px;
+	text-underline-position: under;
+}
+
+.infoMessage--fullWidth {
+	display: block;
+}
+
+.infoMessage__loading {
+	text-decoration-color: hsl(200, 100%, 80%);
+}
+
+.infoMessage__success {
+	text-decoration-color: hsl(90, 100%, 80%);
+}
+
+.infoMessage__error {
+	text-decoration-color: hsl(0, 100%, 80%);
+}
