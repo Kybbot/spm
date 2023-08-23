@@ -2,7 +2,7 @@ import { FC } from "react";
 
 import { PageContent } from "@/widgets/PageContent";
 
-const Advice: FC = () => {
+const AdviceRecords: FC = () => {
 	return (
 		<PageContent title="Records of Advice">
 			<div className="advice">
@@ -65,4 +65,4 @@ const Advice: FC = () => {
 	);
 };
 
-export default Advice;
+export default AdviceRecords;
