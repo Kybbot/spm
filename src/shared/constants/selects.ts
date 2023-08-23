@@ -3,8 +3,6 @@ export const roleValues = {
 	client: "Client",
 };
 
-export type roleKeys = keyof typeof roleValues;
-
 export const statusValues = {
 	active: "Active",
 	"non-active": "Non Active",
