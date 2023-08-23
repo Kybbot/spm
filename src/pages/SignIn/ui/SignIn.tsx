@@ -3,6 +3,9 @@ import { useForm } from "react-hook-form";
 
 import { Button } from "@/shared/ui/Button";
 import { InputRhf } from "@/shared/ui/form/InputRhf";
+import { ErrorMessage } from "@/shared/ui/ErrorMessage";
+
+import { useSignIn } from "@/entities/Auth";
 
 type FormValues = {
 	email: string;
@@ -10,6 +13,8 @@ type FormValues = {
 };
 
 const SignIn: FC = () => {
+	const { isLoading, isError, error, mutate } = useSignIn();
+
 	const {
 		register,
 		handleSubmit,
@@ -21,8 +26,8 @@ const SignIn: FC = () => {
 		},
 	});
 
-	const onSubmit = (data: FormValues) => {
-		console.log("data", data);
+	const onSubmit = (formValues: FormValues) => {
+		mutate({ body: { ...formValues } });
 	};
 
 	return (
@@ -53,9 +58,10 @@ const SignIn: FC = () => {
 						/>
 					</fieldset>
 					<div className="form__save">
-						<Button type="submit" width="115px">
+						<Button type="submit" width="115px" disabled={isLoading}>
 							Enter
 						</Button>
+						{isError && <ErrorMessage error={error} />}
 					</div>
 				</form>
 			</div>
