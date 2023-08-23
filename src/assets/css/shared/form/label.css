@@ -3,7 +3,10 @@
 	display: flex;
 	flex-direction: column;
 	gap: 5px;
-	margin-bottom: 19px;
+}
+
+.label--row {
+	flex-direction: row;
 }
 
 .label:last-child {

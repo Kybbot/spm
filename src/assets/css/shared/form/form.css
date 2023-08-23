@@ -1,3 +1,16 @@
+.form__fieldset {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	margin: 0;
+	padding: 0;
+	border-style: none;
+}
+
 .form__save {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 31px;
 	margin-top: 25px;
 }
