@@ -15,12 +15,13 @@
 	line-height: normal;
 	color: var(--text-main);
 	text-align: left;
-	padding: 13px 13px 13px 4px;
+	white-space: nowrap;
+	padding: 13px 23px 13px 4px;
 }
 
-.table__th--color {
-	padding: 0;
-	width: 11px;
+.table__th--small {
+	font-size: 16px;
+	font-weight: 700;
 }
 
 .table__tr {
@@ -32,10 +33,6 @@
 	background-color: var(--table-hover);
 }
 
-.table__tr:last-child {
-	border-bottom: none;
-}
-
 .table__td {
 	position: relative;
 	font-size: 16px;
@@ -43,7 +40,7 @@
 	line-height: normal;
 	color: var(--text-main);
 	text-align: left;
-	padding: 13px 13px 13px 4px;
+	padding: 13px 23px 13px 4px;
 }
 
 .table__td--status::after {
