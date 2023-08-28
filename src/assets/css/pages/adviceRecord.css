@@ -1,0 +1,142 @@
+.adviceRecord__name {
+	font-size: 20px;
+	font-weight: 400;
+	line-height: normal;
+	margin: 0 0 19px 0;
+}
+
+.adviceRecord__description {
+	max-width: 703px;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: normal;
+	margin: 0 0 32px 0;
+}
+
+.adviceRecord__title {
+	font-size: 26px;
+	font-weight: 700;
+	line-height: normal;
+	margin: 0 0 12px 0;
+	color: var(--text-secondary);
+}
+
+.adviceRecord__table {
+	margin-bottom: 40px;
+}
+
+.adviceRecord__table:last-of-type {
+	margin-bottom: 15px;
+}
+
+.adviceRecord__warning {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: normal;
+	margin: 0;
+	color: var(--text-black);
+}
+
+.adviceRecord__separate {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	margin: 30px 0 25px 0;
+}
+
+.adviceRecord__hr {
+	margin: 0;
+	border: 3px solid var(--border-main);
+}
+
+.adviceRecord__research {
+	display: grid;
+	grid-template-columns: 140px 1fr;
+	gap: 21px;
+	margin-bottom: 17px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid var(--border-secondary);
+}
+
+.adviceRecord__research:last-of-type {
+	margin-bottom: 0;
+	border-bottom: none;
+}
+
+.adviceRecord__subtitle {
+	font-size: 16px;
+	font-weight: 700;
+	line-height: normal;
+	margin: 0;
+}
+
+.adviceRecord__subtitle--secondary {
+	margin: 0 0 6px 0;
+	color: var(--text-secondary);
+}
+
+.adviceRecord__info {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+}
+
+.adviceRecord__text {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: normal;
+	margin: 0;
+}
+
+.adviceRecord__text--black {
+	color: var(--text-black);
+}
+
+.adviceRecord__docs {
+	display: flex;
+	flex-direction: column;
+	gap: 3px;
+}
+
+.adviceRecord__doc {
+	font-size: 16px;
+	font-weight: 500;
+	line-height: normal;
+	color: var(--text-secondary);
+}
+
+.adviceRecord__notes {
+	margin-bottom: 44px;
+}
+
+.adviceRecord__note {
+	margin-bottom: 28px;
+}
+
+.adviceRecord__note:last-child {
+	margin-bottom: 0;
+}
+
+.adviceRecord__ref {
+	font-size: 10px;
+	font-weight: 700;
+	line-height: normal;
+	margin: 18px 0 0 0;
+	color: var(--text-secondary);
+}
+
+.adviceRecord__advisor {
+	margin-bottom: 57px;
+}
+
+.adviceRecord__form .adviceRecord__subtitle {
+	margin: 0 0 16px 0;
+}
+
+.adviceRecord__form .adviceRecord__text {
+	margin: 0 0 24px 0;
+}
+
+.adviceRecord__save {
+	margin-top: 45px;
+}

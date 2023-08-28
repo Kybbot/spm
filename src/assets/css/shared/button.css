@@ -15,3 +15,17 @@
 	box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.25);
 	cursor: pointer;
 }
+
+.btn--green {
+	background-color: var(--btn-green);
+}
+
+.btn--red {
+	background-color: var(--btn-red);
+}
+
+.btn:disabled {
+	box-shadow: none;
+	background-color: var(--bg-white-05);
+	cursor: initial;
+}

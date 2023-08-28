@@ -5,7 +5,9 @@ import { MainLayout } from "../layouts/MainLayout";
 import { AuthLayout } from "../layouts/AuthLayout";
 
 import Home from "@/pages/Home";
-import Advice from "@/pages/Advice";
+import AdviceRecords from "@/pages/AdviceRecords";
+import AdviceRecord from "@/pages/AdviceRecord";
+
 import SignUp from "@/pages/SignUp";
 import SignIn from "@/pages/SignIn";
 
@@ -14,7 +16,8 @@ export const SignedInRoutes: FC = () => {
 		<Routes>
 			<Route path="/" element={<MainLayout />}>
 				<Route index element={<Home />} />
-				<Route path="advice" element={<Advice />} />
+				<Route path="advice-records" element={<AdviceRecords />} />
+				<Route path="advice-records/:id" element={<AdviceRecord />} />
 			</Route>
 			<Route path="/auth" element={<AuthLayout />}>
 				<Route index element={<SignUp />} />
